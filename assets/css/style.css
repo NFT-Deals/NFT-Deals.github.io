@@ -390,7 +390,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .container {
-  padding-top: 72px;
+  padding-top: 60px;
 }
 
 #hero h1 {
@@ -499,6 +499,39 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.explainer-banner {
+    background: linear-gradient(233deg, #DF5FAF, #440eb4, #6320EE, #c9288d);
+    background-size: 800% 800%;
+    -webkit-animation: bannerAnimation 10s ease infinite;
+    -moz-animation: bannerAnimation 10s ease infinite;
+    animation: bannerAnimation 10s ease infinite;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.explainer-banner p{
+  font-size: 1.5em;
+  color: #fff;
+  margin: 0px;
+  padding: 10px;
+}
+
+@-webkit-keyframes bannerAnimation {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes bannerAnimation {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes bannerAnimation {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
 }
 
 @media (max-width: 991px) {
