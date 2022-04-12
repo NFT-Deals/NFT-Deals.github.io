@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #211A1D;
 }
 
 .mobile-nav {
@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    /*height: 100vh;*/
     text-align: center;
   }
   #hero .animated {
@@ -531,6 +531,9 @@ h1, h2, h3, h4, h5, h6 {
   #hero .hero-img img {
     width: 70%;
   }
+  #hero .btn-sm {
+    margin-bottom: 1em;
+  }  
 }
 
 @media (max-width: 575px) {
@@ -990,6 +993,13 @@ section {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  }
+}
+
+@media (max-width: 420px) {
+  .cta .pic .img-fluid {
+    max-width: 70%;
+    margin: 20px auto;
   }
 }
 
