@@ -1993,5 +1993,20 @@ section {
 }
 .learn_more_vid_btn{
   font-weight: 600;
-  
+
+}
+
+#tos-privacy h5{
+  margin-top: 1em;
+}
+
+#tos-privacy{
+  padding-top: 200px;
+}
+.tos-body {
+  padding: 0px; 
+}
+.tos-body p {
+  margin-bottom: 0;
+  padding: 1em 0 0 0;
 }
