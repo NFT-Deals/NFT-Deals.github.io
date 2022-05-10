@@ -390,7 +390,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .container {
-  padding-top: 60px;
+  padding-top: 5em;
 }
 
 #hero h1 {
@@ -548,8 +548,12 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   #hero .hero-img img {
-    width: 50%;
+    /*width: 50%;*/
+    margin-top: 1em;
   }
+  #hero .container {
+    padding-top: 4em;  
+  }  
 }
 
 @media (max-width: 768px) {
@@ -563,16 +567,21 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
   #hero .hero-img img {
-    width: 70%;
+    /*width: 70%;*/
+    margin-top: 1em;
   }
   #hero .btn-sm {
     margin-bottom: 1em;
+  }  
+  #hero .container {
+    padding-top: 3em;  
   }  
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    /*width: 80%;*/
+    margin-top: 1em;
   }
   #hero .btn-get-started {
     font-size: 16px;
@@ -586,6 +595,9 @@ h1, h2, h3, h4, h5, h6 {
   #hero .btn-watch-video i {
     font-size: 32px;
     top: 7px;
+  }
+  #hero .container {
+    padding-top: 2em;  
   }
 }
 
@@ -2009,4 +2021,10 @@ section {
 .tos-body p {
   margin-bottom: 0;
   padding: 1em 0 0 0;
+}
+.inline-anchor {
+  display: inline !important;
+  position: relative !important;
+  padding: 0px !important;
+  color: #db4aa4;
 }
